@@ -1,0 +1,31 @@
+'''8. Design a game between user and computer as follows:
+There are 51 balls in a basket.
+The user has to pick less than 5 balls from the basket at a time.
+Each user will be given his/her turn alternately.
+The user who picks the last ball will lose the game.
+The first turn is of the user.
+The computer shall always win'''
+
+print("Total 51 balls available in bucket ")
+a=51
+c=range(1,100)
+for i in c:
+    b=int(input("player no.1 Enter your number: "))
+    a-=b
+    print("remaining ball: ",a)
+    if a==0:
+        print("Player no. 1 loose the game.")
+        break
+
+    c=int(input("Player no. 2 enter your number: "))
+    a-=c
+    print("remaining ball ",a)
+    if a==0:
+        print("Player no.2 loose the game.")
+        break
+    i+=1
+     
+
+
+
+
