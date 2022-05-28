@@ -1,0 +1,10 @@
+function_to_add_two_numbers_by_positional_argument.py
+SOL:-
+def sum(x,y):
+    return x+y
+
+
+a=int(input('Enter the number :'))
+b=int(input('Enter the second number '))
+out=sum(a,b)
+print(out)
