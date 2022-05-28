@@ -1,0 +1,15 @@
+Annonomyous_function_sort_the_string_by_ascii_weight.py 
+SOL:-
+# lst=['Priyansh','Shubham','Ajay Gupta','Aryan']
+# lst.sort(key=lambda lst:sum(ord(i)for i in lst))
+# print(lst)
+def value(x):
+    sum=0
+    lst1=[]
+    for i in range(x):
+        sum=sum+ord(i)
+        
+    return sum
+lst=['Priyansh','Shubham','Ajay Gupta','Aryan']
+out=value(lst)
+print(out)
